@@ -1,0 +1,22 @@
+{
+  "name": "Reddit Announcements Blocker",
+  "description": "A simply Reddit Announcements Blocker for Chrome",
+  "version": "1.2",
+  "manifest_version": 3,
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["activeTab", "scripting", "cookies", "tabs"],
+  "action": {
+    "default_title": "Change Cookie",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "/images/reddit.png"
+    }
+  },
+  "icons": {
+    "16": "/images/reddit.png",
+    "48": "/images/reddit.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
