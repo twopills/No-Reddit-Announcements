@@ -1,7 +1,7 @@
 {
-  "name": "Reddit Announcements Blocker",
+  "name": "No Reddit Announcements Blocker",
   "description": "A simply Reddit Announcements Blocker for Chrome",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 3,
   "host_permissions": ["http://*/*", "https://*/*"],
   "permissions": ["activeTab", "scripting", "cookies", "tabs"],
